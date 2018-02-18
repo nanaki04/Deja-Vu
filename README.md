@@ -4,13 +4,13 @@ Application for running update loops based on a frame rate set in the applicatio
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+The package can be installed
 by adding `deja_vu` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:deja_vu, "~> 0.1.0"}
+    {:deja_vu, git: "https://github.com/nanaki04/Deja-Vu.git"}
   ]
 end
 ```
